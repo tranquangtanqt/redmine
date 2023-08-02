@@ -39,7 +39,7 @@
 /vendor/cache
 *.rbc
 
-/.bundle
+#/.bundle
 #/Gemfile.lock
 /Gemfile.local
 
