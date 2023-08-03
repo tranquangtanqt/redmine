@@ -5,30 +5,30 @@
 # PostgreSQL configuration
 production:
  adapter: postgresql
- database: db_redmine
- host: dpg-ciuhcoliuiedpv05jqt0-a.singapore-postgres.render.com
+ database: neon_redmine
+ host: ep-lucky-fog-80636183.ap-southeast-1.aws.neon.tech
  port: 5432
  pool: 5
- username: db_sellsource
- password: fFniNAkmRZMZcXEPaVqrsUiln2yPMT2S
+ username: tranquangtanqt1990
+ password: 1OQ6UckpqCnh
 
 development:
  adapter: postgresql
- database: db_redmine
- host: dpg-ciuhcoliuiedpv05jqt0-a.singapore-postgres.render.com
+ database: neon_redmine
+ host: ep-lucky-fog-80636183.ap-southeast-1.aws.neon.tech
  port: 5432
  pool: 5
- username: db_sellsource
- password: fFniNAkmRZMZcXEPaVqrsUiln2yPMT2S
+ username: tranquangtanqt1990
+ password: 1OQ6UckpqCnh
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
  adapter: postgresql
- database: db_redmine
- host: dpg-ciuhcoliuiedpv05jqt0-a.singapore-postgres.render.com
+ database: neon_redmine
+ host: ep-lucky-fog-80636183.ap-southeast-1.aws.neon.tech
  port: 5432
  pool: 5
- username: db_sellsource
- password: fFniNAkmRZMZcXEPaVqrsUiln2yPMT2S
+ username: tranquangtanqt1990
+ password: 1OQ6UckpqCnh
