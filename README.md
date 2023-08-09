@@ -73,3 +73,8 @@ bundle exec rake redmine:load_default_data
 bundle add webrick
 bundle exec rails server -u webrick -e production
 ```
+## Step 8: Kill port used
+```bash
+netstat -ano | findstr :<PORT>
+taskkill /PID <PID> /F
+```
