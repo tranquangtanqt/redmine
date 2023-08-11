@@ -78,3 +78,8 @@ bundle exec rails server -u webrick -e production
 netstat -ano | findstr :<PORT>
 taskkill /PID <PID> /F
 ```
+## Notes: Setting PurpleMine2
+https://github.com/mrliptontea/PurpleMine2
+<br />
+To install PurpleMine, just download .zip and unpack it to your Redmine's public/themes folder.<br />
+Then go to Redmine > Administration > Settings > Display and select PurpleMine2 from the list and save the changes.
